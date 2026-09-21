@@ -34,3 +34,9 @@ npm run dev
 The current CCTV feeds and project metrics are **demo/simulated data**. The UI is structured for production integration, but real CCTV requires a secure RTSP/NVR streaming gateway and server-side credentials. Real project data can be connected through Supabase in the next stage.
 
 Never place CCTV passwords, API keys, or other secrets in browser code.
+
+## Deployment
+
+This repository is a static browser prototype. The production entry point is the root `index.html`; no build command or output directory is required.
+
+Deployment trigger updated on 21 September 2026.
